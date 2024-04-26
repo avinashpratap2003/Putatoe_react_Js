@@ -1,0 +1,46 @@
+.heroCard{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    /* gap: 1rem; */
+    height: 12rem;
+    /* border: 1px solid black; */
+    border-radius: 5%;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 12px;
+    cursor: pointer;
+    margin: 0 auto;
+    box-shadow: 0px 2px 5px 0px #419da4f3;
+}
+
+.heroIcons{
+    font-size: 5rem;
+    color: #419da4f3;
+}
+.iconText{
+    padding-top: 0.5rem;
+    font-size:1.5rem ;
+    text-align: center;
+    color: #419da4f3;
+    font-weight: 500;
+}
+.heroCard:hover{
+    scale: 1.05;
+    transition: 0.3s;
+
+}
+
+@media screen and (max-width:768px){
+    .heroCard{
+        width: 6rem;
+        height: 8rem;
+    }
+    .iconText{
+    font-size: 16px;
+
+    }
+    .heroIcons{
+        font-size:2rem;
+    }
+}
