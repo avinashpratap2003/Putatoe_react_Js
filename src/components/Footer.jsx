@@ -7,25 +7,25 @@ import { IoIosChatbubbles } from "react-icons/io";
 const Footer = () => {
   return (
     <div className='grid grid-cols-5 my-4 bg-white'>
-      <button className='flex flex-col text-center items-center text-4xl  justify-center'>
-        <div className='  text-[#419da4f3]'><IoMdHome/></div>
-        <div className=' text-[#419da4f3] hidden md:block'>Home</div>
-      </button>
-      <button className='flex flex-col text-center items-center text-4xl  justify-center'>
-        <div className='  text-[#419da4f3]'><IoPeople/></div>
-        <div className=' text-[#419da4f3] hidden md:block'>Profile</div>
-      </button>
-       <button className='flex flex-col text-center items-center text-4xl'>
-        <img className='h-12 md:h-32' src="./putato_image.png" alt="Articles" />
-       </button>
-      <button className='flex flex-col text-center items-center text-4xl  justify-center'>
-        <div className='  text-[#419da4f3]'><RiFileList3Fill/></div>
-        <div className=' text-[#419da4f3] hidden md:block'>Follow List</div>
-      </button>
-      <button className='flex flex-col text-center items-center text-4xl  justify-center'>
-        <div className='  text-[#419da4f3]'><IoIosChatbubbles/></div>
-        <div className=' text-[#419da4f3] hidden md:block'>Chats</div>
-      </button>
+      <div className='flex flex-col text-center items-center text-4xl  justify-center'>
+        <div className='  text-[#419da4f3]  cursor-pointer hover:text-slate-500'><IoMdHome/></div>
+        <div className=' text-[#419da4f3] hidden md:block  cursor-pointer hover:text-slate-500'>Home</div>
+      </div>
+      <div className='flex flex-col text-center items-center text-4xl  justify-center'>
+        <div className='  text-[#419da4f3]  cursor-pointer hover:text-slate-500'><IoPeople/></div>
+        <div className=' text-[#419da4f3] hidden md:block  cursor-pointer hover:text-slate-500'>Profile</div>
+      </div>
+       <div className='flex flex-col text-center items-center text-4xl'>
+        <img className='h-12 md:h-32  cursor-pointer hover:text-slate-500' src="./putato_image.png" alt="Articles" />
+       </div>
+      <div className='flex flex-col text-center items-center text-4xl  justify-center'>
+        <div className='  text-[#419da4f3]  cursor-pointer hover:text-slate-500'><RiFileList3Fill/></div>
+        <div className=' text-[#419da4f3] hidden md:block  cursor-pointer hover:text-slate-500'>Follow List</div>
+      </div>
+      <div className='flex flex-col text-center items-center text-4xl  justify-center'>
+        <div className='  text-[#419da4f3]  cursor-pointer hover:text-slate-500'><IoIosChatbubbles/></div>
+        <div className=' text-[#419da4f3] hidden md:block  cursor-pointer hover:text-slate-500'>Chats</div>
+      </div>
     </div>
   )
 }

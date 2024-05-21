@@ -94,7 +94,7 @@ const ProductPage = () => {
     <div className=' max-w-[1600px] mx-auto'>
         {/* Beverages section */}
         <div className=' w-[98%] mx-auto bg-white rounded-lg'>
-        <h1 className='text-center bg-white text-[#419da4f3] md:text-4xl font-sans font-semibold
+        <h1 className='text-2xl text-center bg-white text-[#419da4f3] md:text-4xl font-sans font-semibold
          pl-3 rounded-lg py-4 shadow-[#419da4f3] shadow-md'>Popular Products </h1>
         <div className=' flex justify-between items-center px-5 text-[#419da4f3] text-2xl pt-6
          font-bold '>
@@ -266,12 +266,12 @@ const ProductPage = () => {
         </Slider>
         </div>
         </div>
-        {/* dairy products section */}
+        {/* fruits section */}
         <div className=' w-[98%] mx-auto bg-white rounded-lg'>
         <div className=' flex justify-between items-center px-5 text-[#419da4f3] text-2xl pt-6
          font-bold '>
-            <button>Fruits</button>
-            <button>View ALL</button>
+            <button className='text-sm md:text-xl'>Fruits</button>
+            <button className='text-sm md:text-xl'>View ALL</button>
         </div>
         <div className='  mx-12 z-10 absolute '>
             
@@ -448,7 +448,7 @@ const ProductPage = () => {
                 </div>
                 <div className=' w-[90%] flex flex-col relative mt-8 ml-3 hover:cursor-pointer mx-auto'>
                     <div className=' text-[#419da4f3] text-xl font-extrabold '>None</div>
-                    <div className=' text-2xl font-semibold '>Ripe Banana(Pakka kela)</div>
+                    <div className=' text-2xl font-semibold '>Ripe Banana...</div>
                     <div className=' text-[#419da4f3] font-semibold -mt-1 '>Banana</div>
                     <div className=' flex gap-2'>
                        <div className=' font-bold text-3xl mt-2'>₹250</div>

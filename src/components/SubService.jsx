@@ -3,7 +3,7 @@ import React from "react";
 const SubService = () => {
   return (
     <div className=" max-w-[1600px] mx-auto">
-      <div className=" w-[98%] mx-auto h-10 bg-grey bg-[#419da4f3] mt-4 py-2 pl-3 text-white font-semibold text-2xl
+      <div className=" w-[98%] mx-auto h-14 bg-grey bg-[#419da4f3] mt-4 py-2 pl-3 text-white font-semibold text-2xl
        content-center">All SubServices</div>
       <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-4 w-[98%] mx-auto ">
 
